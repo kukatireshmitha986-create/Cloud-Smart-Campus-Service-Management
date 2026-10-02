@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.form-control,
+.form-select {
+    border-radius: 8px;
+}
+
+.navbar-brand {
+    letter-spacing: 0.3px;
+}
+
+.table {
+    vertical-align: middle;
+}
+
+.badge {
+    font-weight: 500;
+}
+
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.35rem rgba(0, 0, 0, 0.08) !important;
+}
+
+.min-vh-75 {
+    min-height: 75vh;
+}
+
+.dashboard-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+    color: white;
+}
+
+.workflow-card {
+    transition: transform 0.2s ease;
+}
+
+.workflow-card:hover {
+    transform: translateY(-4px);
+}
+
+@media (max-width: 768px) {
+    .table {
+        font-size: 14px;
+    }
+
+    .navbar .btn {
+        font-size: 12px;
+    }
+}
